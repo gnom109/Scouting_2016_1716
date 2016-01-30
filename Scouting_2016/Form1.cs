@@ -33,7 +33,7 @@ namespace Scouting_2016
 
         }
 
-        private void input_Button_Click(object sender, EventArgs e)
+        private void input_Button_Click(object sender, EventArgs e)//actions
         {
             
             int teamNumber = Int32.Parse(team_Number_Box.Text);
