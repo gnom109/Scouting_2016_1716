@@ -239,7 +239,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(353, 261);
+            this.pictureBox1.Location = new System.Drawing.Point(353, 311);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(150, 196);
             this.pictureBox1.TabIndex = 21;
@@ -273,7 +273,7 @@
             // 
             // score_Print_Button
             // 
-            this.score_Print_Button.Location = new System.Drawing.Point(190, 314);
+            this.score_Print_Button.Location = new System.Drawing.Point(166, 311);
             this.score_Print_Button.Name = "score_Print_Button";
             this.score_Print_Button.Size = new System.Drawing.Size(75, 23);
             this.score_Print_Button.TabIndex = 25;

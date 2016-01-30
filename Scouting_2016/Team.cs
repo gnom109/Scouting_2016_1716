@@ -12,6 +12,20 @@ namespace Scouting_2016
         private int auto_Points;
         private int tele_Points;
         private int total_Points;
+
+        private int auto_Approached;
+        private int auto_Crossed;
+        private int auto_HighGoals;
+        private int auto_LowGoals;
+        private int tele_Crossed;
+        private int tele_LowGoals;
+        private int tele_HighGoals;
+
+        private int powerRating;
+
+        private bool towerChallenged;
+        private bool towerScaled;
+
         public Team(int number)
         {
             setNumber(number);
@@ -55,6 +69,98 @@ namespace Scouting_2016
         {
             return total_Points;
         }
+        public void setAutoApproached(int num)
+        {
+            auto_Approached = num;
+        }
+
+        public void setAutoCrossed(int num)
+        {
+            auto_Crossed = num;
+        }
+
+        public void setAutoHighGoals(int num)
+        {
+            auto_HighGoals = num;
+        }
+
+        public void setAutoLowGoals(int num)
+        {
+            auto_LowGoals = num;
+        }
+
+        public void setteleCrossed(int num)
+        {
+            tele_Crossed = num;
+        }
+
+        public void setteleLowGoals(int num)
+        {
+            tele_LowGoals = num;
+        }
+
+        public void setteleHighGoals(int num)
+        {
+            tele_HighGoals = num;
+        }
+
+        public void setTowerChallenged(bool a)
+        {
+            towerChallenged = a;
+        }
+
+        public void setTowerScaled(bool a)
+        {
+            towerScaled = a;
+        }
+
+        public int getAutoApproached()
+        {
+            return auto_Approached;
+        }
+
+        public int getAutoCrossed()
+        {
+            return auto_Crossed;
+        }
+
+        public int getAutoHighGoals()
+        {
+            return auto_HighGoals;
+        }
+
+        public int getAutoLowGoals()
+        {
+            return auto_LowGoals;
+        }
+
+        public int getteleCrossed()
+        {
+            return tele_Crossed;
+        }
+
+        public int getteleHighGoals()
+        {
+            return tele_HighGoals;
+        }
+
+        public int getteleLowGoals()
+        {
+            return tele_LowGoals;
+        }
+
+        public bool istowerChallenged()
+        {
+            return towerChallenged;
+        }
+        public bool istowerScaled()
+        {
+            return towerScaled;
+        }
+
+
+
+
 
         public void sumPoints()
         {

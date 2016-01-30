@@ -42,23 +42,42 @@ namespace Scouting_2016
            
 
             approached = Int32.Parse(approached_Box.Text) * 2;
+            TeamList[teamProgress].setAutoApproached(approached/2);
+
             crossed = Int32.Parse(crossed_Box.Text) * 10;
+            TeamList[teamProgress].setAutoCrossed(crossed / 10);
+
             low_Goals = Int32.Parse(low_Goals_Box.Text) * 5;
+            TeamList[teamProgress].setAutoLowGoals(low_Goals / 5);
+
             high_Goals = Int32.Parse(high_Goals_Box.Text) * 10;
+            TeamList[teamProgress].setAutoHighGoals(high_Goals / 10);
+
             auto_Total = approached + crossed + low_Goals + high_Goals;
+
             crossed_Tele = Int32.Parse(crossing_Tele_Box.Text) * 5;
+            TeamList[teamProgress].setteleCrossed(crossed_Tele / 5);
+
             low_Goals_Tele = Int32.Parse(low_Goals_Tele_Box.Text) * 2;
+            TeamList[teamProgress].setAutoLowGoals(low_Goals_Tele / 2);
+
             high_Goals_Tele = Int32.Parse(high_Goals_Tele_Box.Text) * 5;
+            TeamList[teamProgress].setteleHighGoals(high_Goals_Tele / 5);
+
             tele_Total = crossed_Tele + low_Goals_Tele + high_Goals_Tele;
 
    
             if(challenged_Tower_Tele_Box.Checked == true)
             {
                 tele_Total += 5;
+                TeamList[teamProgress].setTowerChallenged(true);
+
             }
-            if(scaling_Tower_Tele_Box.Checked == true)
+            if (scaling_Tower_Tele_Box.Checked == true)
             {
                 tele_Total += 15;
+                TeamList[teamProgress].setTowerScaled(true);
+
             }
 
             Total = auto_Total + tele_Total;
@@ -111,7 +130,35 @@ namespace Scouting_2016
             writer.WriteLine("Auto Score:" + TeamList[i].getautoPoints().ToString());
             writer.WriteLine("Tele Score:" + TeamList[i].gettelePoints().ToString());
             writer.WriteLine("Total Score:" + TeamList[i].getTotal().ToString());
-                                            writer.WriteLine(" ");
+            writer.WriteLine("Auto Points");
+            writer.WriteLine("-----------");
+
+            writer.WriteLine("Approached:" + TeamList[i].getAutoApproached().ToString());
+            writer.WriteLine("Crossed:" + TeamList[i].getAutoApproached().ToString());
+            writer.WriteLine("Low Goals:" + TeamList[i].getAutoLowGoals().ToString());
+            writer.WriteLine("High Goals:" + TeamList[i].getAutoHighGoals().ToString());
+
+            writer.WriteLine("Tele Points:");
+            writer.WriteLine("------------");
+
+            writer.WriteLine("Crossed:" + TeamList[i].getteleCrossed().ToString());
+            writer.WriteLine("Low Goals:" + TeamList[i].getteleLowGoals().ToString());
+            writer.WriteLine("High Goals:" + TeamList[i].getteleHighGoals().ToString());
+            writer.WriteLine("Challenged Tower:" + TeamList[i].istowerChallenged().ToString());
+            writer.WriteLine("Scaled Tower:" + TeamList[i].istowerScaled().ToString());
+
+
+
+
+
+
+
+
+
+
+                    writer.WriteLine(" ");
+                    writer.WriteLine(" ");
+
                     i++;
              }
             //writer.WriteLine("Team Number:"+teamNumber.ToString());

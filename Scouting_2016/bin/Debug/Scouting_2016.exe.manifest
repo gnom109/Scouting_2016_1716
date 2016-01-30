@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Scouting_2016.exe" size="32768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Scouting_2016.exe" size="34816">
       <assemblyIdentity name="Scouting_2016" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZBf938U2em7cZcK+TahxfNkxyxYLqYTaZ8QADnvu+Z4=</dsig:DigestValue>
+        <dsig:DigestValue>B3BlEAFdk0SyF53ip1BrG0A/I0PZJUl/lIhY5yRIRfc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
