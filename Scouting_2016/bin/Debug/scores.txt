@@ -15,6 +15,12 @@ Low Goals:0
 High Goals:0
 Challenged Tower:False
 Scaled Tower:False
+Penalties:
+----------
+Fouls:0
+Tech Fouls:0
+Yellow Cards: 0
+Red Card: 0
  
  
 Team Number:0
@@ -34,6 +40,12 @@ Low Goals:0
 High Goals:0
 Challenged Tower:False
 Scaled Tower:False
+Penalties:
+----------
+Fouls:0
+Tech Fouls:0
+Yellow Cards: 0
+Red Card: 0
  
  
 Team Number:0
@@ -53,6 +65,12 @@ Low Goals:0
 High Goals:0
 Challenged Tower:False
 Scaled Tower:False
+Penalties:
+----------
+Fouls:0
+Tech Fouls:0
+Yellow Cards: 0
+Red Card: 0
  
  
 Team Number:0
@@ -72,6 +90,12 @@ Low Goals:0
 High Goals:0
 Challenged Tower:False
 Scaled Tower:False
+Penalties:
+----------
+Fouls:0
+Tech Fouls:0
+Yellow Cards: 0
+Red Card: 0
  
  
 Team Number:0
@@ -91,6 +115,12 @@ Low Goals:0
 High Goals:0
 Challenged Tower:False
 Scaled Tower:False
+Penalties:
+----------
+Fouls:0
+Tech Fouls:0
+Yellow Cards: 0
+Red Card: 0
  
  
 Team Number:0
@@ -110,6 +140,12 @@ Low Goals:0
 High Goals:0
 Challenged Tower:False
 Scaled Tower:False
+Penalties:
+----------
+Fouls:0
+Tech Fouls:0
+Yellow Cards: 0
+Red Card: 0
  
  
 Team Number:0
@@ -129,6 +165,12 @@ Low Goals:0
 High Goals:0
 Challenged Tower:False
 Scaled Tower:False
+Penalties:
+----------
+Fouls:0
+Tech Fouls:0
+Yellow Cards: 0
+Red Card: 0
  
  
 Team Number:0
@@ -148,6 +190,12 @@ Low Goals:0
 High Goals:0
 Challenged Tower:False
 Scaled Tower:False
+Penalties:
+----------
+Fouls:0
+Tech Fouls:0
+Yellow Cards: 0
+Red Card: 0
  
  
 Team Number:0
@@ -167,6 +215,12 @@ Low Goals:0
 High Goals:0
 Challenged Tower:False
 Scaled Tower:False
+Penalties:
+----------
+Fouls:0
+Tech Fouls:0
+Yellow Cards: 0
+Red Card: 0
  
  
 Team Number:0
@@ -186,5 +240,36 @@ Low Goals:0
 High Goals:0
 Challenged Tower:False
 Scaled Tower:False
+Penalties:
+----------
+Fouls:0
+Tech Fouls:0
+Yellow Cards: 0
+Red Card: 0
+ 
+ 
+Team Number:0
+Auto Score:0
+Tele Score:0
+Total Score:0
+Auto Points
+-----------
+Approached:0
+Crossed:0
+Low Goals:0
+High Goals:0
+Tele Points:
+------------
+Crossed:0
+Low Goals:0
+High Goals:0
+Challenged Tower:False
+Scaled Tower:False
+Penalties:
+----------
+Fouls:0
+Tech Fouls:0
+Yellow Cards: 0
+Red Card: 0
  
  

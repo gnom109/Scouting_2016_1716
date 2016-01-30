@@ -66,6 +66,7 @@ namespace Scouting_2016
 
             tele_Total = crossed_Tele + low_Goals_Tele + high_Goals_Tele;
 
+
    
             if(challenged_Tower_Tele_Box.Checked == true)
             {
@@ -81,6 +82,20 @@ namespace Scouting_2016
             }
 
             Total = auto_Total + tele_Total;
+            int foul = Int32.Parse( fouls_Box.Text);
+            int techFouls = Int32.Parse(tech_Fouls_Box.Text);
+            int yellowCards = Int32.Parse(yellow_Card_Box.Text);
+            int redCards = Int32.Parse(red_Cards_Box.Text);
+            TeamList[teamProgress].setFouls(foul);
+            TeamList[teamProgress].setTechFouls(techFouls);
+            TeamList[teamProgress].setYellowCards(yellowCards);
+            TeamList[teamProgress].setRedCard(redCards);
+
+
+            //TeamList[teamProgress].setYellowCards(Int32.Parse(yellow_Card_Box.Text));
+          //  TeamList[teamProgress].setRedCard(red_Card_CheckBox.ThreeState);
+
+
 
             TeamList[teamProgress].setautoPoints(auto_Total);
             TeamList[teamProgress].settelePoints(tele_Total);
@@ -146,6 +161,16 @@ namespace Scouting_2016
             writer.WriteLine("High Goals:" + TeamList[i].getteleHighGoals().ToString());
             writer.WriteLine("Challenged Tower:" + TeamList[i].istowerChallenged().ToString());
             writer.WriteLine("Scaled Tower:" + TeamList[i].istowerScaled().ToString());
+            writer.WriteLine("Penalties:");
+            writer.WriteLine("----------");
+            writer.WriteLine("Fouls:" + TeamList[i].getFouls().ToString());
+            writer.WriteLine("Tech Fouls:" + TeamList[i].getTechFouls().ToString());
+            writer.WriteLine("Yellow Cards: " + TeamList[i].getYellowCards().ToString());
+            writer.WriteLine("Red Card: " + TeamList[i].isRedCarded().ToString());
+
+
+
+
 
 
 
@@ -174,6 +199,11 @@ namespace Scouting_2016
         {
 
             printScores();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 

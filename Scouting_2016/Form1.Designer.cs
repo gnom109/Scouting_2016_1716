@@ -55,6 +55,15 @@
             this.team_Number_Label = new System.Windows.Forms.Label();
             this.score_Print_Button = new System.Windows.Forms.Button();
             this.scores_Printed_Label = new System.Windows.Forms.Label();
+            this.penalty_Label = new System.Windows.Forms.Label();
+            this.fouls_Box = new System.Windows.Forms.TextBox();
+            this.foul_Label = new System.Windows.Forms.Label();
+            this.tech_Fouls_Box = new System.Windows.Forms.TextBox();
+            this.tech_Fouls_Label = new System.Windows.Forms.Label();
+            this.yellow_Cards_Label = new System.Windows.Forms.Label();
+            this.yellow_Card_Box = new System.Windows.Forms.TextBox();
+            this.red_Cards_Box = new System.Windows.Forms.TextBox();
+            this.red_Card_Label = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -289,11 +298,99 @@
             this.scores_Printed_Label.Size = new System.Drawing.Size(0, 13);
             this.scores_Printed_Label.TabIndex = 26;
             // 
+            // penalty_Label
+            // 
+            this.penalty_Label.AutoSize = true;
+            this.penalty_Label.Location = new System.Drawing.Point(190, 390);
+            this.penalty_Label.Name = "penalty_Label";
+            this.penalty_Label.Size = new System.Drawing.Size(50, 13);
+            this.penalty_Label.TabIndex = 27;
+            this.penalty_Label.Text = "Penalties";
+            // 
+            // fouls_Box
+            // 
+            this.fouls_Box.Location = new System.Drawing.Point(169, 416);
+            this.fouls_Box.Name = "fouls_Box";
+            this.fouls_Box.Size = new System.Drawing.Size(100, 20);
+            this.fouls_Box.TabIndex = 28;
+            this.fouls_Box.Text = "0";
+            // 
+            // foul_Label
+            // 
+            this.foul_Label.AutoSize = true;
+            this.foul_Label.Location = new System.Drawing.Point(128, 419);
+            this.foul_Label.Name = "foul_Label";
+            this.foul_Label.Size = new System.Drawing.Size(35, 13);
+            this.foul_Label.TabIndex = 29;
+            this.foul_Label.Text = "Fouls:";
+            // 
+            // tech_Fouls_Box
+            // 
+            this.tech_Fouls_Box.Location = new System.Drawing.Point(169, 442);
+            this.tech_Fouls_Box.Name = "tech_Fouls_Box";
+            this.tech_Fouls_Box.Size = new System.Drawing.Size(100, 20);
+            this.tech_Fouls_Box.TabIndex = 30;
+            this.tech_Fouls_Box.Text = "0";
+            this.tech_Fouls_Box.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // tech_Fouls_Label
+            // 
+            this.tech_Fouls_Label.AutoSize = true;
+            this.tech_Fouls_Label.Location = new System.Drawing.Point(100, 445);
+            this.tech_Fouls_Label.Name = "tech_Fouls_Label";
+            this.tech_Fouls_Label.Size = new System.Drawing.Size(63, 13);
+            this.tech_Fouls_Label.TabIndex = 31;
+            this.tech_Fouls_Label.Text = "Tech Fouls:";
+            // 
+            // yellow_Cards_Label
+            // 
+            this.yellow_Cards_Label.AutoSize = true;
+            this.yellow_Cards_Label.Location = new System.Drawing.Point(92, 472);
+            this.yellow_Cards_Label.Name = "yellow_Cards_Label";
+            this.yellow_Cards_Label.Size = new System.Drawing.Size(71, 13);
+            this.yellow_Cards_Label.TabIndex = 32;
+            this.yellow_Cards_Label.Text = "Yellow Cards:";
+            // 
+            // yellow_Card_Box
+            // 
+            this.yellow_Card_Box.Location = new System.Drawing.Point(169, 469);
+            this.yellow_Card_Box.Name = "yellow_Card_Box";
+            this.yellow_Card_Box.Size = new System.Drawing.Size(100, 20);
+            this.yellow_Card_Box.TabIndex = 33;
+            this.yellow_Card_Box.Text = "0";
+            // 
+            // red_Cards_Box
+            // 
+            this.red_Cards_Box.BackColor = System.Drawing.Color.White;
+            this.red_Cards_Box.Location = new System.Drawing.Point(169, 495);
+            this.red_Cards_Box.Name = "red_Cards_Box";
+            this.red_Cards_Box.Size = new System.Drawing.Size(100, 20);
+            this.red_Cards_Box.TabIndex = 34;
+            this.red_Cards_Box.Text = "0";
+            // 
+            // red_Card_Label
+            // 
+            this.red_Card_Label.AutoSize = true;
+            this.red_Card_Label.Location = new System.Drawing.Point(92, 498);
+            this.red_Card_Label.Name = "red_Card_Label";
+            this.red_Card_Label.Size = new System.Drawing.Size(60, 13);
+            this.red_Card_Label.TabIndex = 35;
+            this.red_Card_Label.Text = "Red Cards:";
+            // 
             // Scouting_2016
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(515, 598);
+            this.Controls.Add(this.red_Card_Label);
+            this.Controls.Add(this.red_Cards_Box);
+            this.Controls.Add(this.yellow_Card_Box);
+            this.Controls.Add(this.yellow_Cards_Label);
+            this.Controls.Add(this.tech_Fouls_Label);
+            this.Controls.Add(this.tech_Fouls_Box);
+            this.Controls.Add(this.foul_Label);
+            this.Controls.Add(this.fouls_Box);
+            this.Controls.Add(this.penalty_Label);
             this.Controls.Add(this.scores_Printed_Label);
             this.Controls.Add(this.score_Print_Button);
             this.Controls.Add(this.team_Number_Label);
@@ -357,6 +454,15 @@
         private System.Windows.Forms.Label team_Number_Label;
         private System.Windows.Forms.Button score_Print_Button;
         private System.Windows.Forms.Label scores_Printed_Label;
+        private System.Windows.Forms.Label penalty_Label;
+        private System.Windows.Forms.TextBox fouls_Box;
+        private System.Windows.Forms.Label foul_Label;
+        private System.Windows.Forms.TextBox tech_Fouls_Box;
+        private System.Windows.Forms.Label tech_Fouls_Label;
+        private System.Windows.Forms.Label yellow_Cards_Label;
+        private System.Windows.Forms.TextBox yellow_Card_Box;
+        private System.Windows.Forms.TextBox red_Cards_Box;
+        private System.Windows.Forms.Label red_Card_Label;
     }
 }
 

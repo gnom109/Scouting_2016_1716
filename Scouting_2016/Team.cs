@@ -21,11 +21,15 @@ namespace Scouting_2016
         private int tele_LowGoals;
         private int tele_HighGoals;
 
-        private int powerRating;
+        private float powerRating;
 
         private bool towerChallenged;
         private bool towerScaled;
 
+        private int fouls;
+        private int techFouls;
+        private int yellowCards;
+        private int redCard;
         public Team(int number)
         {
             setNumber(number);
@@ -156,6 +160,71 @@ namespace Scouting_2016
         public bool istowerScaled()
         {
             return towerScaled;
+        }
+
+        public void setFouls(int num)
+        {
+            fouls = num;
+        }
+
+        public void setTechFouls(int num)
+        {
+            techFouls = num;
+        }
+
+        public void setYellowCards(int num)
+        {
+            yellowCards = num;
+        }
+
+        public void setRedCard(int a)
+        {
+            redCard = a;
+        }
+
+        public int getFouls()
+        {
+            return fouls;
+        }
+
+        public int getTechFouls()
+        {
+            return techFouls;
+        }
+
+        public int getYellowCards()
+        {
+            return yellowCards;
+        }
+        
+        public int isRedCarded()
+        {
+            return redCard;
+        }
+
+        public float compileScore()
+        {
+            float autoValue = 2 * getAutoApproached() + 10 * getAutoCrossed() + 5 * auto_LowGoals + 10 * auto_HighGoals;
+            float teleValue = 5 * getteleCrossed() + 2 * getteleLowGoals() + 5 * getteleHighGoals();
+            
+            if (istowerChallenged() == true)
+            {
+                teleValue += 5;
+            }
+
+            if (istowerScaled() == true)
+            {
+                teleValue += 15;
+            }
+            float miscValue = (getFouls() + getTechFouls() + getYellowCards() + isRedCarded()) * -1;
+            float dv = 5 * getAutoCrossed();
+            if(getAutoCrossed() + getteleCrossed() > 4)
+            {
+                dv += 20;
+            }
+
+            powerRating = dv + miscValue + autoValue + teleValue;
+            return powerRating;
         }
 
 
