@@ -11,3 +11,16 @@ c:\users\jordain sharma\documents\visual studio 2015\Projects\Scouting_2016\Scou
 c:\users\jordain sharma\documents\visual studio 2015\Projects\Scouting_2016\Scouting_2016\obj\Debug\Scouting_2016.exe.manifest
 c:\users\jordain sharma\documents\visual studio 2015\Projects\Scouting_2016\Scouting_2016\obj\Debug\Scouting_2016.application
 c:\users\jordain sharma\documents\visual studio 2015\Projects\Scouting_2016\Scouting_2016\obj\Debug\Scouting_2016.Scouting_2016.resources
+C:\Users\Jordain Sharma\Desktop\Scouting_2016_1716\Scouting_2016\bin\Debug\Scouting_2016.exe.config
+C:\Users\Jordain Sharma\Desktop\Scouting_2016_1716\Scouting_2016\obj\Debug\Scouting_2016.exe
+C:\Users\Jordain Sharma\Desktop\Scouting_2016_1716\Scouting_2016\obj\Debug\Scouting_2016.pdb
+C:\Users\Jordain Sharma\Desktop\Scouting_2016_1716\Scouting_2016\obj\Debug\Scouting_2016.csprojResolveAssemblyReference.cache
+C:\Users\Jordain Sharma\Desktop\Scouting_2016_1716\Scouting_2016\obj\Debug\Scouting_2016.Scouting_2016.resources
+C:\Users\Jordain Sharma\Desktop\Scouting_2016_1716\Scouting_2016\obj\Debug\Scouting_2016.Properties.Resources.resources
+C:\Users\Jordain Sharma\Desktop\Scouting_2016_1716\Scouting_2016\obj\Debug\Scouting_2016.csproj.GenerateResource.Cache
+C:\Users\Jordain Sharma\Desktop\Scouting_2016_1716\Scouting_2016\bin\Debug\Scouting_2016.exe.manifest
+C:\Users\Jordain Sharma\Desktop\Scouting_2016_1716\Scouting_2016\bin\Debug\Scouting_2016.application
+C:\Users\Jordain Sharma\Desktop\Scouting_2016_1716\Scouting_2016\bin\Debug\Scouting_2016.exe
+C:\Users\Jordain Sharma\Desktop\Scouting_2016_1716\Scouting_2016\bin\Debug\Scouting_2016.pdb
+C:\Users\Jordain Sharma\Desktop\Scouting_2016_1716\Scouting_2016\obj\Debug\Scouting_2016.exe.manifest
+C:\Users\Jordain Sharma\Desktop\Scouting_2016_1716\Scouting_2016\obj\Debug\Scouting_2016.application
