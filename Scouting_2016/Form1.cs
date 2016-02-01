@@ -129,7 +129,7 @@ namespace Scouting_2016
 
         }
 
-        public void printScores()
+        public void printScores()//Prints the Scores
         {
            using (writer)
             {
@@ -166,7 +166,7 @@ namespace Scouting_2016
             writer.WriteLine("Fouls:" + TeamList[i].getFouls().ToString());
             writer.WriteLine("Tech Fouls:" + TeamList[i].getTechFouls().ToString());
             writer.WriteLine("Yellow Cards: " + TeamList[i].getYellowCards().ToString());
-            writer.WriteLine("Red Card: " + TeamList[i].isRedCarded().ToString());
+            writer.WriteLine("Red Cards: " + TeamList[i].isRedCarded().ToString());
 
 
 
